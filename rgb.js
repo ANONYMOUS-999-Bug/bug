@@ -12,7 +12,7 @@ let button = () =>{
     let green1 = Math.floor(Math.random() * 257);
     let blue1 = Math.floor(Math.random() * 257);
     background.style.background = `rgb(${red},${green},${blue})`;
-    colorCode.innerText = `rgb(${red},${green},${blue})`;
+    colorCode.innerText = `rgb= ${red},${green},${blue}`;
     para.forEach((a) =>{
         
         a.style.color = `rgb(${red1},${green1},${blue1})`;
